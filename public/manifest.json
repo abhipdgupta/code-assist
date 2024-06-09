@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "code-assist",
+  "version": "1.0.0",
+  "description": "This extension help you find videos of leetcode problems along with save question plus download pdf of your notes",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "unlimitedStorage"
+  ],
+  "host_permissions": [
+    "https://leetcode.com/problems/*"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  }
+}

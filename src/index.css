@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(37, 37, 37);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(222, 222, 222);
+  border-radius: 10px;
+}
+
+/* WORD WRAP ISSSUE IN PDF AND RENDER */
+pre {
+  white-space: pre-wrap;
+  overflow: visible;
+  padding-left: 1rem;
+}
