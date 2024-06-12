@@ -12,12 +12,8 @@
   
   "permissions": [
     "activeTab",
-    "scripting",
     "storage",
     "unlimitedStorage"
-  ],
-  "host_permissions": [
-    "https://leetcode.com/problems/*"
   ],
   "action": {
     "default_popup": "index.html"

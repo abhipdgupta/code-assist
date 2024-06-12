@@ -2,6 +2,7 @@ import jsPDF from "jspdf";
 import { getSavedNotes } from "../api/notes";
 import { Note as TNote } from "../types/note.type";
 import { Download } from "lucide-react";
+import { formatDate } from "../utils/helper";
 
 function NotesPdfExport() {
   const downloadPDF = async () => {
@@ -21,7 +22,7 @@ function NotesPdfExport() {
     jspdf.html(html, {
       windowWidth: 1080,
       callback: function () {
-        window.open(jspdf.output("bloburl"));
+        jspdf.save(`code-assist-${formatDate(Date.now())}.pdf`)
       },
     });
   };
