@@ -38,7 +38,7 @@ You have the right to:
 
 ## Contact Us
 
-If you have any questions or concerns about this Privacy Policy or your data, please contact us at [your contact email].
+If you have any questions or concerns about this Privacy Policy or your data, please contact us at abhipdgupta007@gmail.com.
 
 ## Changes to This Privacy Policy
 
